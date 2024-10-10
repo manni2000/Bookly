@@ -1,4 +1,4 @@
-**Bookly** is a project for managing and scheduling appointments, resembling functionality similar to platforms like Calendly.
+**Bookly** is a project for allow users to schedule appointments, meetings, and events with ease, eliminating the need for back-and-forth emails.
 
 ### Technologies Used:
 - **React.js** for the frontend interface.
