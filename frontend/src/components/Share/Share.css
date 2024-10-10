@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.share-modal {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background for modal effect */
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.share-content {
+    padding: 20px;
+}
+
+.share-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.share-time {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.share-divider {
+    border: 0.5px solid lightgray;
+    margin: 10px 0;
+}
+
+.share-link-label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ef6234;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.share-url-section {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.share-instructions {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.url-display {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.share-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.share-copy-btn {
+    background-color: #ef6234;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.share-copy-btn:hover {
+    background-color: #d9531e;
+}
+
+.share-copy-btn:active {
+    background-color: #c74619;
+}
+
+.share-copied-message {
+    color: #09ec1c;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Modal background */
+.share-modal {
+    background-color: rgba(0, 0, 0, 0.5); /* Darken the background */
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal box */
+.share-container {
+    background-color: white;
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative; /* Ensure the close button is positioned within */
+    text-align: center;
+}
+
+/* Close button */
+.share-close-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 10px; /* Position near the top */
+    right: 10px; /* Position near the right */
+    padding: 5px 10px;
+    z-index: 1001; /* Ensure the button is above everything else */
+    transition: color 0.3s ease;
+}
+
+.share-close-btn:hover {
+    color: #ef6234; /* Highlight the close button on hover */
+}

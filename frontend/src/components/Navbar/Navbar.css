@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ef6234;
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#login {
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#login:hover {
+    color: #ef6234;
+}
+
+button {
+    background-color: #ef6234;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d9531e;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+    }
+
+    .menu-items {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .auth-buttons {
+        margin-top: 15px;
+    }
+}
