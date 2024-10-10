@@ -11,7 +11,6 @@ const signinSchema = new Schema({
         type: String,
         required: true 
     }, 
-    // available for backend only
     date:{
        type: Date,
        default: Date.now 
