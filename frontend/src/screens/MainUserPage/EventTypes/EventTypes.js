@@ -27,8 +27,7 @@ function EventTypes({ time }) {
         <div className="main-container-event">
           <div className="upper-div-event">
             <div>
-              {/* <p id="p-event"><span id="span-event"></span>Poorva Shrivastav</p>
-                        <a id="a-event" href="http://localhost:3000/user/:{loginEmail}"></a> */}
+              {}
               <p id="p-event">
                 <span id="span-event">M</span>
                 {userName}

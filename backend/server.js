@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: new URL("http://localhost:3000"),
+    origin: new URL("https://bookly-backend-t963.onrender.com"),
     credentials: true,
   })
 );
